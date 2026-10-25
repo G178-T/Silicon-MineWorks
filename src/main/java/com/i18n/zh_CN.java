@@ -9,10 +9,14 @@ public class zh_CN extends languagePack{
         locale = new Locale("zh","CN");
         ResourceBundle bundle = ResourceBundle.getBundle("messages",locale);
     }
+    @Override
+    public String lang(String key) {
+        String lang = bundle.getString(key);
+        return lang;
+    }
 
     @Override
-    protected String info() {
-        System.out.println("zh_CN");
-        return "";
+    protected String[] displayName() {
+        return new String[]{"zh_CN", "简体中文"};
     }
 }

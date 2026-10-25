@@ -16,7 +16,7 @@ public class start extends JFrame{
         Container container = JfStart.getContentPane();
 
         container.setLayout(new BorderLayout());
-        String title = "";
-        JLabel label = new JLabel(new zh_CN());
+
+        JLabel label = new JLabel(new i18n.lang("sm.ui.start.title"));
     }
 }
