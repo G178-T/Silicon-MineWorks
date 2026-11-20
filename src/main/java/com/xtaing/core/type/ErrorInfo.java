@@ -1,4 +1,4 @@
-package com.Core.type;
+package com.xtaing.core.type;
 
 public enum ErrorInfo {
     ERROR, //错误

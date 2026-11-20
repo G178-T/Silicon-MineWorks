@@ -1,4 +1,4 @@
-package com.save;
+package com.xtaing.save;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 
-public class writer {
+public class IOsave {
     File file = new File("save.json");
     String key;
     Object value;
@@ -30,5 +30,16 @@ public class writer {
             e.printStackTrace();
         }
         return file;
+    }
+
+
+
+    public void Reader(String key, Object value) {
+
+
+    }
+
+    public void Reader(String key, Object value, File file) {
+
     }
 }

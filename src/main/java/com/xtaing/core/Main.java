@@ -1,4 +1,4 @@
-package com.Core;
+package com.xtaing.core;
 
 import com.ui.start.*;
 /**
@@ -10,6 +10,6 @@ public class Main {
         init();
     }
     public static void init(){
-        new start();
+        new Start();
     }
 }
