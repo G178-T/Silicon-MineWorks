@@ -1,6 +1,6 @@
 package com.xtaing.core;
 
-import com.ui.start.*;
+import com.xtaing.ui.start.*;
 /**
  * main -> init -> run
  */
